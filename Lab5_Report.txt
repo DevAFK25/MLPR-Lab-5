@@ -1,0 +1,11 @@
+1. Some of the common distance metrics used in distance-based classification algorithms are Euclidean distance, Manhattan distance, Cosine distance, Hamming distance, Minkowski distance, Mahalanobis distance, and Chebyshev distance.
+2. Real-world applications of distance-based classification algorithms include recommendation systems, spam detection, speech recognition, customer segmentation, anomaly detection, etc.
+3. (a) Euclidean distance is the most common metric, and it represents the straight-line distance between two points in space. It is based on the Pythagorean theorem.
+(b) Manhattan distance is measured along the axes like moving in a grid and is used in high-dimensional problems.
+(c) Cosine distance measures the angle between vectors rather than magnitude.
+(d) Hamming distance measures the similarity between two vectors of equal length by counting the number of differing positions, that is, where the bits are different.
+(e) Minkowski distance is the general form of both Euclidean distance and Manhattan distance, and it provides flexibility with the distance measure.
+(f) Mahalanobis distance measures the distance between a point and a distribution and accounts for the correlations between features.
+(g) Chebyshev distance finds the maximum abs. difference between two points in a single coordinate dimension.
+4. Cross-validation is used to assess the performance of the model in terms of its ability to generalize new, unseen data and prevents overfitting. In addition, it gives us reliable performance estimates of the model. Example: N-fold cross validation.
+5. In KNN, bias is the error that occurs when a model is too simple to capture the underlying patterns in the dataset, leading to underfitting. A high value of k increases bias, and a low value of k decreases bias. Variance measures the change in a model's predictions with a different training dataset. A high-variance model is sensitive to noise in the dataset, leading to overfitting. A high value of k decreases variance, and a low value of k increases variance. Hence, there exists a trade-off between bias and variance, as they are inversely proportional to each other.
